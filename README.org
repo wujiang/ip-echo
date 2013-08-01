@@ -1,0 +1,11 @@
+* ip-echo
+
+Return the remote request IP like ipecho.net/plain
+
+** How to run it locally
+1. src_sh{virtualven venv-ip}
+2. src_sh{python setup.py install}
+3. src_sh{pserve ip.ini}
+
+** Hosting via uwsgi + nginx
+Please refer to [[https://gist.github.com/evildmp/3094281][https://gist.github.com/evildmp/3094281]]

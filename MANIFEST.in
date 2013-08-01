@@ -1,0 +1,2 @@
+include *.txt *.ini *.cfg
+recursive-include ip *.txt *.mak *.mako
